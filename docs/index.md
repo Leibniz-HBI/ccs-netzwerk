@@ -1,6 +1,7 @@
 ---
 layout: default
 title: DFG Network CCS & Online Protest
+nav_order: 1
 ---
 
 # DFG Network: Computational Communication Science & Online Protest
@@ -24,6 +25,3 @@ The project addresses key challenges posed by digitalization in the social scien
 ## Network Members
 
 The network consists of 18 researchers from leading institutions across Germany and Europe, collaborating on advancing CCS research and its theoretical and methodological foundations.
-
-- Prof. Dr. Stephanie Geise (ZeMKI, Bremen)
-- PD Dr. Merja Mahrt 

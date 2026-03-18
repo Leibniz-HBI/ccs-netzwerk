@@ -4,7 +4,22 @@ lang: en
 url: ""
 baseurl: ""
 markdown: kramdown
-theme: minima
+remote_theme: just-the-docs/just-the-docs
+search_enabled: true
+heading_anchors: true
+nav_sort: case_insensitive
+color_scheme: light
+back_to_top: true
+back_to_top_text: "Back to top"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+
 

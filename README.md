@@ -6,10 +6,12 @@ Dokumentation des DFG-Netzwerk "Potenziale und Herausforderungen der Computation
 
 Diese Repository-Vorlage ist fuer GitHub Pages mit Jekyll vorbereitet.
 Der Seiteninhalt liegt unter `docs/`.
+Als Theme wird `just-the-docs` verwendet.
 
 ### Struktur
 
 - `docs/index.md`: Startseite
+- `docs/members.md`: Mitgliederseite
 - `docs/_config.yml`: Jekyll-Konfiguration
 - `Gemfile`: Abhaengigkeiten fuer lokale Entwicklung
 - `.github/workflows/pages.yml`: Build + Deploy ueber GitHub Actions
@@ -39,4 +41,4 @@ Die Seite ist dann standardmaessig unter `http://127.0.0.1:4000` erreichbar.
 ### Inhalte bearbeiten
 
 - Seiten in `docs/` als Markdown-Dateien anlegen.
-- Navigation/Theme-Einstellungen in `docs/_config.yml` anpassen.
+- Navigation/Theme-Einstellungen in `docs/_config.yml` anpassen (`nav_order`, Suche, Farben etc.).
