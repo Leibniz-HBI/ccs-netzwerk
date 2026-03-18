@@ -1,0 +1,10 @@
+title: "DFG Network CCS & Online Protest"
+description: "Documentation site for the DFG network on Computational Communication Science and Online Protest"
+lang: en
+url: ""
+baseurl: ""
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
