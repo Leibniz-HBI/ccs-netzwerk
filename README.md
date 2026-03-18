@@ -1,19 +1,24 @@
-# CCS-Netzwerk Online-Protest - Jekyll One-Pager
+# CCS-Netzwerk One-Pager (Jekyll / GitHub Pages)
 
-Diese Version ist so angelegt, dass sie direkt als statische Jekyll/GitHub-Pages-Seite in einem Repository veröffentlicht werden kann.
+Diese Datei enthält einen statischen Jekyll-One-Pager, der direkt über GitHub Pages veröffentlicht werden kann.
 
-## Deployment auf GitHub Pages
+## Struktur
 
-1. Neues GitHub-Repository anlegen.
-2. Alle Dateien aus diesem Ordner in das Repository kopieren.
-3. Auf GitHub zu **Settings -> Pages** gehen.
-4. Unter **Build and deployment** `Deploy from a branch` wählen.
-5. Branch `main` und Ordner `/ (root)` auswählen.
-6. Speichern - GitHub Pages veröffentlicht die Seite anschließend automatisch.
+- `index.html` – komplette One-Pager-Seite
+- `_config.yml` – minimale Jekyll-Konfiguration
+- `assets/css/style.css` – Layout und Design
+- `assets/img/members/` – Porträts und Platzhalter
+
+## Veröffentlichung über GitHub Pages
+
+1. Neues Repository anlegen.
+2. Alle Dateien dieses Ordners in das Repository hochladen.
+3. In **Settings → Pages** als Quelle **Deploy from a branch** wählen.
+4. Branch **main** und Ordner **/(root)** auswählen.
+5. Nach dem nächsten Push veröffentlicht GitHub Pages die Seite automatisch.
 
 ## Hinweise
 
-- Die Seite ist als One-Pager ohne zusätzliche Plugins gebaut und funktioniert mit dem Standard-Setup von GitHub Pages.
-- Einige Porträts werden direkt von öffentlichen Profilseiten der jeweiligen Forschungseinrichtungen geladen.
-- Für Personen, bei denen keine belastbare öffentliche Porträtdatei automatisiert identifiziert werden konnte, wird ein neutraler Platzhalter verwendet.
-- Affiliationen und Profillinks wurden auf Basis öffentlicher Institutsseiten mit Stand März 2026 aktualisiert.
+- Die Seite nutzt keine zusätzlichen Jekyll-Plugins.
+- Externe Abhängigkeiten wurden vermieden; vorhandene Porträts liegen lokal im Projektordner.
+- Für einige Profile, deren öffentliche Institutionsseiten kein direkt abrufbares Porträt ausgaben, wurden neutrale Platzhaltergrafiken erzeugt.
